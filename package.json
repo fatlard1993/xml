@@ -1,0 +1,22 @@
+{
+  "name": "xml",
+  "version": "1.0.0",
+  "description": "A node.js library for dealing with xml",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatlard1993/xml.git"
+  },
+  "author": "fatlard1993",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatlard1993/xml/issues"
+  },
+  "homepage": "https://github.com/fatlard1993/xml#readme",
+  "dependencies": {
+    "xmldoc": "^1.1.2"
+  }
+}
