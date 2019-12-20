@@ -25,6 +25,9 @@ const xml = module.exports = {
 			return string.toLowerCase();
 		},
 	},
+	escape: function(string){
+		return string.replace('&', '&amp;').replace('>', '&gt;').replace('<', '&lt;').replace("'", '&apos;').replace('"', '&quot;');
+	},
 	parse: function(xmlData){
 		return new XMLParser.XmlDocument(xmlData);
 	}
