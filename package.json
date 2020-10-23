@@ -1,6 +1,6 @@
 {
 	"name": "xml",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"description": "A node.js library for dealing with xml",
 	"main": "src/index.js",
 	"scripts": {
